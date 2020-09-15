@@ -1,0 +1,20 @@
+.listing{
+    color: #fff;
+    padding: 40px;
+    background-color: #435C70;
+}
+
+.dropdown{
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    background-color: #50657B;
+    border: 0;
+    color: #acc6de;;
+}
+
+.heading{
+    margin: 0;
+    font-weight: 600;
+    margin-bottom: 30px;
+}

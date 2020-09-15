@@ -1,0 +1,79 @@
+.avatarSection{
+    width: 40%;
+    background-color: #435C70;
+    padding: 45px;
+    box-sizing: border-box;
+    margin-right: 35px;
+}
+
+.wrapper{
+    color: #fff;
+    display: flex;
+    margin-top: 35px;
+}
+
+.accountSettings{
+    width: 60%;
+    background-color: #435C70;
+    box-sizing: border-box;
+    padding: 45px;
+}
+
+.m0{
+    margin: 0;
+}
+
+.avatarImg{
+    margin: 25px auto;
+    width: 100%;
+}
+
+.btn{
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    background-color: #F5A623;
+    border: 0;
+    outline: none;
+}
+
+.Label{
+    width: 50%;
+    margin-bottom: 15px;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.Form{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.InputField{
+    width: 100%;
+    color: #fff;
+    font-size: 18px;
+    padding: 12px;
+    box-sizing: border-box;
+    outline: none;
+    border: 0;
+    margin-top: 8px;
+    background-color: #54657d;
+    height: 50px;
+}
+
+.formBtn{
+    margin-top: 29px;
+}
+
+.delBtn{
+    margin-left: 13px;
+}
+
+.accHeading{
+    margin: 0;
+    margin-bottom: 24px;
+}

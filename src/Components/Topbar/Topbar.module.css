@@ -1,0 +1,36 @@
+.logo{
+    text-transform: uppercase;
+}
+
+.wrapper{
+    height: 100px;
+    background-color: #567086;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.linkName{
+    margin: 3px;
+}
+
+.icons{
+    font-size: 28px;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 19%;
+}
+
+.link{
+    padding: 23px;
+    text-align: center;
+}
+
+.activeLink {
+    background-color: #F5A623;
+}
