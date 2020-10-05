@@ -1,0 +1,18 @@
+.container input{
+    border: 0;
+    width: 100%;
+    padding: 14px;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 8px;
+    box-sizing: border-box;
+    background-color: #54657d;
+}
+
+.container label{
+    font-size: 16px;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+    display: block;
+}

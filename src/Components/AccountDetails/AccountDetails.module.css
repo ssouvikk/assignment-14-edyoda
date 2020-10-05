@@ -1,7 +1,7 @@
 .avatarSection{
-    width: 40%;
+    width: 35%;
     background-color: #435C70;
-    padding: 45px;
+    padding: 35px;
     box-sizing: border-box;
     margin-right: 35px;
 }
@@ -10,41 +10,20 @@
     color: #fff;
     display: flex;
     margin-top: 35px;
+    align-items: flex-start;
+    align-content: flex-start;
 }
 
 .accountSettings{
-    width: 60%;
+    width: 65%;
     background-color: #435C70;
     box-sizing: border-box;
-    padding: 45px;
-}
-
-.m0{
-    margin: 0;
+    padding: 35px;
 }
 
 .avatarImg{
-    margin: 25px auto;
+    margin: 0 auto 25px;
     width: 100%;
-}
-
-.btn{
-    width: 100%;
-    padding: 15px;
-    font-size: 16px;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #fff;
-    background-color: #F5A623;
-    border: 0;
-    outline: none;
-}
-
-.Label{
-    width: 50%;
-    margin-bottom: 15px;
-    padding: 0 15px;
-    box-sizing: border-box;
 }
 
 .Form{
@@ -52,28 +31,37 @@
     flex-wrap: wrap;
 }
 
-.InputField{
-    width: 100%;
-    color: #fff;
-    font-size: 18px;
-    padding: 12px;
-    box-sizing: border-box;
-    outline: none;
-    border: 0;
-    margin-top: 8px;
-    background-color: #54657d;
-    height: 50px;
-}
-
-.formBtn{
-    margin-top: 29px;
-}
-
-.delBtn{
-    margin-left: 13px;
-}
-
-.accHeading{
+.Heading{
     margin: 0;
     margin-bottom: 24px;
+}
+
+.leftPart{
+    width: calc(50% - 15px);
+    margin-right: 15px;
+}
+
+.rightPart{
+    width: calc(50% - 15px);
+    margin-left: 15px;
+}
+
+.btnfixing{
+    margin-top: 32px;   
+}
+
+.DeleteIcon{
+    position: absolute;
+    top: calc(47% - 25px);
+    left: calc(50% - 25px);
+    opacity: 0.7;
+    visibility: hidden;
+}
+
+.imgContainer{
+    position: relative;
+}
+
+.avatarImg:hover + .DeleteIcon , .DeleteIcon:hover {
+    visibility: visible;
 }

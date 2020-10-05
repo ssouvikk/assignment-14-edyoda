@@ -1,0 +1,20 @@
+.dropdown{
+    border: 0;
+    width: 100%;
+    outline: none;
+    padding: 16px;
+    margin-top: 8px;
+    font-size: 16px;
+    color: #acc6de;;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    background-color: #54657d;
+
+}
+
+.container label{
+    font-size: 16px;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+    display: block;
+}

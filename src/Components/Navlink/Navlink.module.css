@@ -1,0 +1,18 @@
+.link{
+    padding: 23px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.icons{
+    font-size: 28px;
+}
+
+.linkName{
+    margin: 3px;
+}
+
+.activeLink {
+    background-color: #F5A623;
+}

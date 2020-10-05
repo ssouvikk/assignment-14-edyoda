@@ -1,0 +1,11 @@
+tbody tr{
+    border-bottom: 1px solid #415a70;
+}
+
+.radio{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #394e64;
+    display: block;
+}

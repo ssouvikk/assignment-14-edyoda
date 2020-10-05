@@ -1,0 +1,28 @@
+.container{
+    background-color: #435C70;
+    color: #fff;
+    max-width: 410px;
+    margin: auto;
+    padding: 37px;
+    text-align: center;
+}
+
+.heading{
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.success{
+    color: #0f0;
+}
+
+.fail{
+    color: #f00;
+}
+.msg{
+    font-size: 18px;
+    text-transform: capitalize;
+}

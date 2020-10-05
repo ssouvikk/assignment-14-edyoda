@@ -1,0 +1,15 @@
+.container{
+    background-color: #435C70;
+    color: #fff;
+    max-width: 410px;
+    margin: auto;
+    padding: 37px;
+}
+
+.heading{
+    margin: 0;
+    text-transform: capitalize;
+    font-size: 1.3em;
+    margin-bottom: 25px;
+    text-align: center;
+}
