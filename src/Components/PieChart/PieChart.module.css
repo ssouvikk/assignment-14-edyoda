@@ -1,0 +1,14 @@
+.container{
+    background-color: #435c70;
+    padding: 33px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 33px;
+    height: 100%;
+    max-height: 471px;
+
+}
+
+.container > div{
+    margin-top: 65px;
+}

@@ -1,0 +1,53 @@
+.container{
+    background-color: #435c70;
+    padding: 33px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 33px;
+}
+
+.heading{
+    font-size: 19px;
+    margin: 0;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+
+.notiAvatar{
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+}
+
+.notiBox{
+    display: flex;
+    background-color: #4e657a;
+    margin-bottom: 18px;
+    padding: 17px;
+    box-sizing: border-box;
+}
+
+.notiBox:last-of-type{
+    margin-bottom: 0;
+}
+
+.info{
+    margin-left: 20px;
+}
+
+.time{
+    margin: 0;
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.msg{
+    margin: 0;
+    font-weight: 500;
+}
+
+.scroll{
+    max-height: 350px;
+    overflow-y: auto;
+    margin-bottom: 8px;
+}

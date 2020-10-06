@@ -1,3 +1,27 @@
 .container{
     color: #fff;
 }
+
+.halfWid{
+    width: calc(50% - 15px);
+}
+
+.topParts{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.marginRight{
+    margin-right: 15px;
+}
+
+.marginLeft{
+    margin-left: 15px;
+}
+
+.container h3{
+    font-size: 19px;
+    margin: 0;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
