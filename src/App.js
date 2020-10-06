@@ -66,9 +66,10 @@ export default class App extends Component {
 	componentDidMount = () => {
 		const prevVal = localStorage.getItem('projectData')
 		if (!prevVal) {
-			Axios.get('https://reactmusicplayer-ab9e4.firebaseio.com/project-data.json')
+			// Axios.get('https://reactmusicplayer-ab9e4.firebaseio.com/project-data.json')
+			Axios.get('https://5ef9a09ebc5f8f0016c66d82.mockapi.io/ProjectDatas/1')
 				.then((response) => {
-					localStorage.setItem('projectData', JSON.stringify(response.data))
+					localStorage.setItem('projectData', JSON.stringify(response.data.value))
 					this.setState({
 						projectData: { ...response.data }
 					})

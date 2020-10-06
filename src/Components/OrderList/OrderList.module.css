@@ -1,0 +1,70 @@
+.container{
+    background-color: #435c70;
+    padding: 33px;
+}
+
+.heading{
+    font-size: 19px;
+    margin: 0;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+
+.table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table td, .table th{
+    height: 50px;
+    text-align: left;
+    padding-left: 24px;
+}
+
+.table th{
+    text-transform: uppercase;
+    background-color: #486177;
+}
+
+.table td{
+    background-color: #50697f;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.light{
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+    box-shadow: 0 0 0 3px;
+}
+
+.moving{
+    background-color: #0f0;
+    color: rgba(0, 255, 0, 0.3);
+}
+
+.pending{
+    background-color: #ff0;
+    color: rgba(255, 255, 0, 0.3);
+}
+
+.cancelled{
+    background-color: #f00;
+    color: rgba(200, 200, 0, 0.3);
+}
+
+.delivered{
+    background-color: #0ff;
+    color: rgba(0, 255, 255, 0.3);
+}
+
+.scroll{
+    max-height: 350px;
+    overflow-y: auto;
+    margin-bottom: 8px;
+}
