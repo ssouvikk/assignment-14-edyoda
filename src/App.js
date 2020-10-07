@@ -71,7 +71,7 @@ export default class App extends Component {
 				.then((response) => {
 					localStorage.setItem('projectData', JSON.stringify(response.data.value))
 					this.setState({
-						projectData: { ...response.data }
+						projectData: { ...response.data.value }
 					})
 				})
 				.catch((err) => {

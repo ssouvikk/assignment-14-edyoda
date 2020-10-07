@@ -4,6 +4,7 @@ import styles from './CustomDatePicker.module.css'
 import "react-datepicker/dist/react-datepicker.css";
 
 const CustomDatePicker = (props) => {
+    const today = new Date()
     return (
         <div className={styles.container}>
             <label> {props.label}
@@ -12,7 +13,7 @@ const CustomDatePicker = (props) => {
                     onChange={date => props.handleChange(date)}
                     dateFormat="dd/MM/yyyy"
                     closeOnScroll={true}
-                    minDate={new Date()}
+                    minDate={today.setDate(today.getDate() + 10)}
                 />
             </label>
         </div>

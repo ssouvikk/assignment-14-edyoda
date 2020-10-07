@@ -14,9 +14,11 @@ export default class Login extends Component {
         e.preventDefault()
         const data = JSON.parse(localStorage.getItem('projectData'))
         const allUsers = data.accountsPage
+        let found = false
         for (const key in allUsers) {
             if (allUsers[key].email === this.state.userName && allUsers[key].password === this.state.password) {
                 localStorage.setItem('login', true)
+                found = true
                 const userData = {
                     type: key,
                     data: allUsers[key]
@@ -24,6 +26,9 @@ export default class Login extends Component {
                 localStorage.setItem('user', JSON.stringify(userData))
                 this.props.loginHandle()
             }
+        }
+        if (!found) {
+            alert('username and password is not matching')
         }
     }
 

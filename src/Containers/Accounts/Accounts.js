@@ -19,6 +19,7 @@ export default class Accounts extends Component {
 
     handleChange = (e) => {
         const selectedUserData = JSON.parse(localStorage.getItem('projectData')).accountsPage[this.capitalize(e.target.value)]
+        selectedUserData.password = ''
         this.setState({ userData: selectedUserData, userType: e.target.value })
     }
 
