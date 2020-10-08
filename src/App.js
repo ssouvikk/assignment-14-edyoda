@@ -10,6 +10,7 @@ import Dashboard from './Containers/Dashboard/Dashboard'
 import Accounts from './Containers/Accounts/Accounts'
 import { Redirect, Route, Switch } from 'react-router'
 import { BrowserRouter } from 'react-router-dom'
+import NotFound from './Containers/NotFound/NotFound'
 
 export default class App extends Component {
 	state = {
@@ -96,6 +97,7 @@ export default class App extends Component {
 							<Route exact path="/addProduct" render={() => this.state.loggedIn ? <AddProduct update={this.updateProjectData} /> : <Redirect to="/" />} />
 							<Route exact path="/products" render={() => this.state.loggedIn ? <Products delCat={this.delCat} delMarked={this.delMarked} handleTick={this.handleTick} delProduct={this.delProduct} data={this.state.projectData.productsPage} updateProjectData={this.updateProjectData} /> : <Redirect to="/" />} />
 							<Route exact path="/account" render={() => this.state.loggedIn ? <Accounts /> : <Redirect to="/" />} />
+							<Route component={NotFound} />
 						</Switch>
 					</div>
 					<Footer />

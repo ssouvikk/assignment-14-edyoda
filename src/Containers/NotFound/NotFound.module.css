@@ -1,0 +1,12 @@
+.container h1{
+    color: #fff;
+    text-align: center;
+    font-size: 5em;
+    text-transform: capitalize;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}

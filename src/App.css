@@ -4,7 +4,7 @@
 
 .content{
     padding: 3% 10%;
-    min-height: calc(100vh - 200px);
+    min-height: calc(100vh - 270px);
 }
 
 ::-webkit-scrollbar {
